@@ -1,0 +1,15 @@
+[package]
+name = "harsh"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='5504f3302e6dd9d20bfff6b41c78994f95082f8b6732de483b9d3d5358957796'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
